@@ -112,7 +112,7 @@ public class Campo {
         return vizinhos.stream().filter(v -> v.minado).count();
     }
 
-    void reiniciar () {
+    void reiniciar() {
         aberto = false;
         minado = false;
         marcado = false;

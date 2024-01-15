@@ -100,7 +100,7 @@ public class CampoTeste {
     @Test
     void testeAbrirComVizinhos1() {
         Campo campo11 = new Campo(1, 1);
-        Campo campo22 = new Campo(2,2);
+        Campo campo22 = new Campo(2, 2);
         campo22.adicionarVizinho(campo11);
 
         campo.adicionarVizinho(campo22);
@@ -114,7 +114,7 @@ public class CampoTeste {
         Campo campo12 = new Campo(1, 1);
         campo12.minar();
 
-        Campo campo22 = new Campo(2,2);
+        Campo campo22 = new Campo(2, 2);
         campo22.adicionarVizinho(campo11);
         campo22.adicionarVizinho(campo12);
 

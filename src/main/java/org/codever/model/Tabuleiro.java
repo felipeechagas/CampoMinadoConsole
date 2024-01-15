@@ -52,8 +52,8 @@ public class Tabuleiro {
     }
 
     private void associarOsVizinhos() {
-        for (Campo c1: campos) {
-            for (Campo c2: campos) {
+        for (Campo c1 : campos) {
+            for (Campo c2 : campos) {
                 c1.adicionarVizinho(c2);
             }
         }
@@ -82,7 +82,7 @@ public class Tabuleiro {
         StringBuilder sb = new StringBuilder();
 
         sb.append("  ");
-        for (int c =0; c < colunas; c++) {
+        for (int c = 0; c < colunas; c++) {
             sb.append(" ");
             sb.append(c);
             sb.append(" ");
